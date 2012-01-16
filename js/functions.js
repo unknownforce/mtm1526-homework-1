@@ -20,6 +20,8 @@ function pickLetter () {
 	document.write(letter);
 	document.write('<br>');
 	
+	
+	
 	for (var i = 0; i <= 1; i++) {	
 		document.write(letter);
 	}
@@ -76,6 +78,25 @@ function pickLetter () {
 }
 
 pickLetter();
+
+document.write('<br>');
+document.write('<br>');
+
+function triangle () {
+	
+	
+	for (var i = 0; i <= 9; i++) {	
+		document.write(letter);
+		document.write('<br>');
+	}
+	
+}
+
+triangle();
+
+
+
+
 
 
 
