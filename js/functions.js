@@ -17,62 +17,13 @@ console.log(letter);
 
 
 function pickLetter () {
-	document.write(letter);
-	document.write('<br>');
-	
-	
-	
-	for (var i = 0; i <= 1; i++) {	
-		document.write(letter);
-	}
+	for (var n = 0; n <= 10; n++){
 	
 	document.write('<br>');
 	
-	for (var i = 0; i <= 2; i++) {	
-		document.write(letter);
-	}
-	
-	document.write('<br>');
-	
-	for (var i = 0; i <= 3; i++) {	
-		document.write(letter);
-	}
-	
-	document.write('<br>');
-	
-	for (var i = 0; i <= 4; i++) {	
-		document.write(letter);
-	}
-	
-	document.write('<br>');
-	
-	for (var i = 0; i <= 5; i++) {	
-		document.write(letter);
-	}
-	
-	document.write('<br>');
-	
-	for (var i = 0; i <= 6; i++) {	
-		document.write(letter);
-	}
-	
-	document.write('<br>');
-	
-	for (var i = 0; i <= 7; i++) {	
-		document.write(letter);
-	}
-	
-	document.write('<br>');
-	
-	
-	for (var i = 0; i <= 8; i++) {	
-		document.write(letter);
-	}
-	
-	document.write('<br>');
-	
-	for (var i = 0; i <= 9; i++) {	
-		document.write(letter);
+		for (var i = 0; i <= n; i++) {	
+			document.write(letter);
+		}
 	}
 	
 }
